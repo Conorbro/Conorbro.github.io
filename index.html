@@ -77,14 +77,17 @@ float:left;
       <div class="container">
         <div class="section section__more-grid">
           <div class="row">
-            <div class="col s12 m12 l4">
-              <h2 class="center"><a class="big-icon-link" href="https://ie.linkedin.com/in/conor-broderick-1966a28a" target="_blank"><i class="fa fa-linkedin-square fa-3x grow" aria-hidden="true"></i></a></h2>
+            <div class="col s12 m12 l3">
+              <h3 class="center"><a class="big-icon-link" href="https://ie.linkedin.com/in/conor-broderick-1966a28a" target="_blank"><i class="fa fa-linkedin-square fa-3x grow" aria-hidden="true"></i></a></h3>
             </div>
-            <div class="col s12 m12 l4">
-              <h2 class="center"><a class="big-icon-link" href="https://github.com/Conorbro" target="_blank"><i class="fa fa-github-alt fa-3x grow" aria-hidden="true"></i></a></h2>
+            <div class="col s12 m12 l3">
+              <h3 class="center"><a class="big-icon-link" href="https://github.com/Conorbro" target="_blank"><i class="fa fa-github-alt fa-3x grow" aria-hidden="true"></i></a></h3>
             </div>
-            <div class="col s12 m12 l4">
-              <h2 class="center"><a class="big-icon-link" href="https://www.instagram.com/shutter.ireland" target="_blank"><i class="fa fa-instagram fa-3x grow" aria-hidden="true"></i></a></h2>
+            <div class="col s12 m12 l3">
+              <h3 class="center"><a class="big-icon-link" href="https://stackoverflow.com/users/2948793/conorb" target="_blank"><i class="fa fa-stack-overflow fa-3x grow" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="col s12 m12 l3">
+              <h3 class="center"><a class="big-icon-link" href="https://www.instagram.com/shutter.ireland" target="_blank"><i class="fa fa-instagram fa-3x grow" aria-hidden="true"></i></a></h3>
             </div>
           </div>
         </div>
@@ -106,10 +109,8 @@ float:left;
               <h5 class="center-align">Code 'N Stuff</h5>
               <ul class="center-align">
                 <li><a class="modal-trigger" href="#work-sites-modal">Work</a></li>
-                <li><a class="modal-trigger" href="#web-apps-modal">Web Apps</a></li>
-                <li><a class="modal-trigger" href="#games-modal">JS Games</a></li>
-                <li><a class="modal-trigger" href="#other-modal">Other</a></li>
-                <li><a class="modal-trigger" href="#reading-modal">Reading</a></li>
+                <li><a class="modal-trigger" href="#other-modal">Side Projects</a></li>
+                <li><a class="modal-trigger" href="#blogposts-modal">Blogposts, Talks, and Meetups</a></li>
               </ul>
             </div>
           </div>
@@ -117,28 +118,32 @@ float:left;
       </footer>
 
       <!-- Modal Structure -->
-      <div id="games-modal" class="modal">
+      <div id="blogposts-modal" class="modal">
         <div class="modal-content">
-          <h4>Games</h4>
-          <p>Here's two semi-functional games I remade for the craic</p>
+          <h4>Blogposts, Talks, and Meetups</h4>
+          <h5>Meetups</h5>
+          <p>I run a developer meetup for technical workers in the <a href="http://ndrc.ie" target="_blank">NDRC</a> and the <a href="http://gec.ie" target="_blank">GEC</a>. Everything from Bitcoin to devops is discussed. We've previously read The Pragmatic Programmer and Machine Learning for Humans and have had speakers from IBM speak to us about Watson.</p>
           <ul class="collection">
-            <a class="collection-item" href="http://www.conorbroderick.net/snake.html" target="_blank">Snake</a>
-            <a class="collection-item" href="http://www.conorbroderick.net/Pong/pong-2-player.html" target="_blank">Pong (2 Player!)</a>
+            <a class="collection-item" href="http://gec.ie/event/gec-technical-book-club-13/" target="_blank">GEC Technical Bookclub</a>
           </ul>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-      </div>
-
-      <!-- Modal Structure -->
-      <div id="web-apps-modal" class="modal">
-        <div class="modal-content">
-          <h4>Web Applications</h4>
-          <p>Here's two semi-functional web applicatiosn I made using Rails:</p>
+          <h5>Talks</h5>
+          <p>I've given a number of lightning talks over the past few months on topics to do with monitoring and front end frameworks. Some of which are available online:</p>
           <ul class="collection">
-            <a class="collection-item" href="http://bio-quiz.herokuapp.com" target="_blank">Leaving Cert. Biology Quiz (Beta)</a>
-            <a class="collection-item" href="http://www.choozeroo.xyz" target="_blank">Choozeroo</a>
+            <a class="collection-item" href="https://www.youtube.com/watch?v=FvowgJ4s09c" target="_blank">Getting into Prometheus Development as a Beginner</a>
+            <a class="collection-item" href="#" target="_blank">Introudction to Elm (Youtube link pending!)</a>
+          </ul>
+          <h5>Blogposts</h5>
+          <p>I write blogposts on Prometheus and its related components:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.robustperception.io/blackbox-friday/" target="_blank">Black(box) Friday</a>
+            <a class="collection-item" href="https://www.robustperception.io/converting-rules-to-the-prometheus-2-0-format/" target="_blank">Converting Rules to the Prometheus 2.0 Format</a>
+            <a class="collection-item" href="https://www.robustperception.io/nagios-nrpe-prometheus-exporter/" target="_blank">Nagios NRPE Prometheus Exporter</a>
+            <a class="collection-item" href="https://www.robustperception.io/using-the-cratedb-prometheus-adapter/" target="_blank">Using the CrateDB Prometheus adapter</a>
+            <a class="collection-item" href="https://www.robustperception.io/monitoring-kafka-in-a-docker-container-using-prometheus/" target="_blank">Monitoring Kafka in a Docker container using Prometheus</a>
+            <a class="collection-item" href="https://www.robustperception.io/configuring-blackbox-exporter-timeouts/" target="_blank">Configuring Blackbox Exporter Timeouts</a>
+            <a class="collection-item" href="https://www.robustperception.io/blackbox-exporter-benchmarking/" target="_blank">Blackbox Exporter Benchmarking</a>
+            <a class="collection-item" href="https://www.robustperception.io/a-silence-is-a-snooze/" target="_blank">A Silence is a Snooze</a>
+            <a class="collection-item" href="https://www.robustperception.io/openshift-and-prometheus/" target="_blank">Open Shift and Prometheus</a>
           </ul>
         </div>
         <div class="modal-footer">
@@ -150,11 +155,17 @@ float:left;
       <div id="work-sites-modal" class="modal">
         <div class="modal-content">
           <h4>Work</h4>
-          <p>These are the sites I previously helped build and maintained in my last job:</p>
+          <h5>Robust Perception</h5>
+          <p>Here are some of the standalone components I developed while working for Robust Perception:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.github.com/robustperception/nrpe_exporter" target="_blank">NRPE Exporter</a>
+            <a class="collection-item" href="https://www.github.com/robustperception/azure-metrics-exporter" target="_blank">Azure Metrics Exporter</a>
+          </ul>
+          <h5>UniTuition</h5>
+          <p>These are the sites I previously built and maintained as a devleoper working for UniTuition both in and out of college:</p>
           <ul class="collection">
             <a class="collection-item" href="https://www.unituition.com" target="_blank">Unituiton</a>
             <a class="collection-item" href="https://www.tutorhq.ie" target="_blank">TutorHQ</a>
-            <a class="collection-item" href="https://www.livefyt.com" target="_blank">LiveFyt</a>
           </ul>
         </div>
         <div class="modal-footer">
@@ -165,10 +176,26 @@ float:left;
       <!-- Modal Structure -->
       <div id="other-modal" class="modal">
         <div class="modal-content">
-          <h4>Anroid and CSS</h4>
+          <h4>Side Projects</h4>
           <p>Here are a few other random things I've made:</p>
+          <h5>Useful</h5>
+          <p>A few handy tools I've made:</p>
           <ul class="collection">
+            <a class="collection-item" href="https://github.com/conorbro/twitter-sentiment-analysis" target="_blank">Twitter Bot for Sentiment Analysis</a>
+            <a class="collection-item" href="https://instagram-media-downloader.herokuapp.com/" target="_blank">Instagram Video Downloader</a>
+            <a class="collection-item" href="https://github.com/Conorbro/teachable-scraper" target="_blank">Backup tool for Teachable.com</a>
+            <a class="collection-item" href="https://github.com/Conorbro/dominos-fb-bot" target="_blank">Dominos Coupon Messenger Bot (300+ users)</a>
+            <a class="collection-item" href="http://bio-quiz.herokuapp.com" target="_blank">Leaving Cert. Biology Quiz (Beta)</a>
             <a class="collection-item" href="https://play.google.com/store/apps/details?id=com.cb.leavingcertbiologyquiz&hl=en" target="_blank">LC Bio Quiz App (2000+ Downloads)</a>
+          </ul>
+          <h5>Games</h5>
+          <ul class="collection">
+            <a class="collection-item" href="https://github.com/Conorbro/Space-Invaders-Android-Game" target="_blank">Space shooter game (Android)</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/snakesnake.html" target="_blank">Snake</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/pong/pong-2-player.html" target="_blank">Pong (2 Player!)</a>
+          </ul>
+          <h5>Random</h5>
+          <ul class="collection">
             <a class="collection-item" href="http://codepen.io/Conorbro/full/jAYRzB/" target="_blank">CSS Illusion</a>
           </ul>
         </div>
