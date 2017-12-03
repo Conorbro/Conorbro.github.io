@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <style>
+#customize-list{
+float:left;
+margin-left:20px;
+list-style:none;
+}
+#gr_updates_widget{
+float:left;
+border-radius: 5px;
+background-color:#fff;
+border:solid #683205 10px;
+-webkit-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+-moz-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+padding:15px 0 0px 15px;
+width:250px;
+height:365px;
+}
+#gr_footer{
+margin-bottom:0px;
+height:30px;
+}
+#gr_updates_widget p{
+padding:0px;
+margin:0;
+font-size:14px;
+}
+#gr_footer img{
+width:100px;
+float:left;
+}
+</style>
+
+  <body>
+
+      <!-- #More Grid -->
+      <div class="container">
+        <div class="section section__more-grid">
+          <h4>Side Projects</h4>
+          <p>Here are a few other random things I've made:</p>
+          <h5>Useful</h5>
+          <p>A few handy tools I've made:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://github.com/conorbro/twitter-sentiment-analysis" target="_blank">Twitter Bot for Sentiment Analysis</a>
+            <a class="collection-item" href="https://instagram-media-downloader.herokuapp.com/" target="_blank">Instagram Video Downloader</a>
+            <a class="collection-item" href="https://github.com/Conorbro/teachable-scraper" target="_blank">Backup tool for Teachable.com</a>
+            <a class="collection-item" href="https://github.com/Conorbro/dominos-fb-bot" target="_blank">Dominos Coupon Messenger Bot (300+ users)</a>
+            <a class="collection-item" href="http://bio-quiz.herokuapp.com" target="_blank">Leaving Cert. Biology Quiz (Beta)</a>
+            <a class="collection-item" href="https://play.google.com/store/apps/details?id=com.cb.leavingcertbiologyquiz&hl=en" target="_blank">LC Bio Quiz App (2000+ Downloads)</a>
+          </ul>
+          <h5>Games</h5>
+          <ul class="collection">
+            <a class="collection-item" href="https://github.com/Conorbro/Space-Invaders-Android-Game" target="_blank">Space shooter game (Android)</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/snakesnake.html" target="_blank">Snake</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/pong/pong-2-player.html" target="_blank">Pong (2 Player!)</a>
+          </ul>
+          <h5>Random</h5>
+          <ul class="collection">
+            <a class="collection-item" href="http://codepen.io/Conorbro/full/jAYRzB/" target="_blank">CSS Illusion</a>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="page-footer footer-colour valign-wrapper">
+        <div class="container valign">
+          <div class="row">
+            <div class="col s12 m6 valign">
+              <h5 class="center-align">About the site</h5>
+              <ul class="center-align">
+                <li>Icons from <a href="http://fontawesome.io/icons/" target="_blank">Font Awesome</a></li>
+                <li>Colour scheme inspired by <a href="http://lolcolors.com" target="_blank">LOL Colours</a></li>
+                <li>Site created with <a href="http://materializecss.com" target="_blank">Materialize</a> CSS framework</li>
+              </ul>
+            </div>
+            <div class="col s12 m6 valign">
+              <h5 class="center-align">Code 'N Stuff</h5>
+              <ul class="center-align">
+                <li><a class="modal-trigger" href="#work-sites-modal">Work</a></li>
+                <li><a class="modal-trigger" href="#other-modal">Side Projects</a></li>
+                <li><a class="modal-trigger" href="#blogposts-modal">Blogposts, Talks, and Meetups</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Modal Structure -->
+      <div id="blogposts-modal" class="modal">
+        <div class="modal-content">
+          <h4>Blogposts, Talks, and Meetups</h4>
+          <h5>Meetups</h5>
+          <p>I run a developer meetup for technical workers in the <a href="http://ndrc.ie" target="_blank">NDRC</a> and the <a href="http://gec.ie" target="_blank">GEC</a>. Everything from Bitcoin to devops is discussed. We've previously read The Pragmatic Programmer and Machine Learning for Humans and have had speakers from IBM speak to us about Watson.</p>
+          <ul class="collection">
+            <a class="collection-item" href="http://gec.ie/event/gec-technical-book-club-13/" target="_blank">GEC Technical Bookclub</a>
+          </ul>
+          <h5>Talks</h5>
+          <p>I've given a number of lightning talks over the past few months on topics to do with monitoring and front end frameworks. Some of which are available online:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.youtube.com/watch?v=FvowgJ4s09c" target="_blank">Getting into Prometheus Development as a Beginner</a>
+            <a class="collection-item" href="#" target="_blank">Introudction to Elm (Youtube link pending!)</a>
+          </ul>
+          <h5>Blogposts</h5>
+          <p>I write blogposts on Prometheus and its related components:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.robustperception.io/blackbox-friday/" target="_blank">Black(box) Friday</a>
+            <a class="collection-item" href="https://www.robustperception.io/converting-rules-to-the-prometheus-2-0-format/" target="_blank">Converting Rules to the Prometheus 2.0 Format</a>
+            <a class="collection-item" href="https://www.robustperception.io/nagios-nrpe-prometheus-exporter/" target="_blank">Nagios NRPE Prometheus Exporter</a>
+            <a class="collection-item" href="https://www.robustperception.io/using-the-cratedb-prometheus-adapter/" target="_blank">Using the CrateDB Prometheus adapter</a>
+            <a class="collection-item" href="https://www.robustperception.io/monitoring-kafka-in-a-docker-container-using-prometheus/" target="_blank">Monitoring Kafka in a Docker container using Prometheus</a>
+            <a class="collection-item" href="https://www.robustperception.io/configuring-blackbox-exporter-timeouts/" target="_blank">Configuring Blackbox Exporter Timeouts</a>
+            <a class="collection-item" href="https://www.robustperception.io/blackbox-exporter-benchmarking/" target="_blank">Blackbox Exporter Benchmarking</a>
+            <a class="collection-item" href="https://www.robustperception.io/a-silence-is-a-snooze/" target="_blank">A Silence is a Snooze</a>
+            <a class="collection-item" href="https://www.robustperception.io/openshift-and-prometheus/" target="_blank">Open Shift and Prometheus</a>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="work-sites-modal" class="modal">
+        <div class="modal-content">
+          <h4>Work</h4>
+          <h5>Robust Perception</h5>
+          <p>Here are some of the standalone components I developed while working for Robust Perception:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.github.com/robustperception/nrpe_exporter" target="_blank">NRPE Exporter</a>
+            <a class="collection-item" href="https://www.github.com/robustperception/azure-metrics-exporter" target="_blank">Azure Metrics Exporter</a>
+          </ul>
+          <h5>UniTuition</h5>
+          <p>These are the sites I previously built and maintained as a devleoper working for UniTuition both in and out of college:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://www.unituition.com" target="_blank">Unituiton</a>
+            <a class="collection-item" href="https://www.tutorhq.ie" target="_blank">TutorHQ</a>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="other-modal" class="modal">
+        <div class="modal-content">
+          <h4>Side Projects</h4>
+          <p>Here are a few other random things I've made:</p>
+          <h5>Useful</h5>
+          <p>A few handy tools I've made:</p>
+          <ul class="collection">
+            <a class="collection-item" href="https://github.com/conorbro/twitter-sentiment-analysis" target="_blank">Twitter Bot for Sentiment Analysis</a>
+            <a class="collection-item" href="https://instagram-media-downloader.herokuapp.com/" target="_blank">Instagram Video Downloader</a>
+            <a class="collection-item" href="https://github.com/Conorbro/teachable-scraper" target="_blank">Backup tool for Teachable.com</a>
+            <a class="collection-item" href="https://github.com/Conorbro/dominos-fb-bot" target="_blank">Dominos Coupon Messenger Bot (300+ users)</a>
+            <a class="collection-item" href="http://bio-quiz.herokuapp.com" target="_blank">Leaving Cert. Biology Quiz (Beta)</a>
+            <a class="collection-item" href="https://play.google.com/store/apps/details?id=com.cb.leavingcertbiologyquiz&hl=en" target="_blank">LC Bio Quiz App (2000+ Downloads)</a>
+          </ul>
+          <h5>Games</h5>
+          <ul class="collection">
+            <a class="collection-item" href="https://github.com/Conorbro/Space-Invaders-Android-Game" target="_blank">Space shooter game (Android)</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/snakesnake.html" target="_blank">Snake</a>
+            <a class="collection-item" href="http://www.conorbroderick.net/games/pong/pong-2-player.html" target="_blank">Pong (2 Player!)</a>
+          </ul>
+          <h5>Random</h5>
+          <ul class="collection">
+            <a class="collection-item" href="http://codepen.io/Conorbro/full/jAYRzB/" target="_blank">CSS Illusion</a>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- Modal Structure -->
+      <div id="reading-modal" class="modal">
+        <div class="modal-content">
+          <h4>What I'm currenly reading:</h4>
+          <div id="gr_updates_widget">
+            <iframe id="the_iframe" src="http://goodreads.com/widgets/user_update_widget?height=400&num_updates=2&user=3527123&width=250" width="200" height="330" frameborder="0"></iframe>
+            <div id="gr_footer">
+              <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" src="https://www.goodreads.com/images/layout/goodreads_logo_140.png" /></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://use.fontawesome.com/15153a1945.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+
+  <script>
+    $(document).ready(function(){
+      $('.modal-trigger').leanModal();
+    });
+  </script>
+
+
+</html>
